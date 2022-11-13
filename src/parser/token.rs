@@ -1,3 +1,4 @@
+#[derive(Debug, PartialEq)]
 pub enum Token {
   LPar,        // (
   RPar,        // )
@@ -5,4 +6,6 @@ pub enum Token {
   LInt(u64),
 
   OpPlus,      // +
+
+  EOF          // End of file
 }
