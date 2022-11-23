@@ -3,5 +3,12 @@
 version = 3
 
 [[package]]
-name = "icaro"
+name = "icaro-parser"
+version = "0.1.0"
+dependencies = [
+ "icaro-tree",
+]
+
+[[package]]
+name = "icaro-tree"
 version = "0.1.0"
